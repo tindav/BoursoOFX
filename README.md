@@ -2,7 +2,7 @@
 
 ## Overview
 
-BoursoOFXMoney is a solution designed to convert OFX (Open Financial Exchange) files into a valid format that can be used by Microsoft Money 2005. The solution consists of two main projects:
+BoursoOFXMoney is a solution designed to convert OFX (Open Financial Exchange) files exported by BoursoBank into a valid format that can be used by Microsoft Money 2005. The solution consists of two main projects:
 
 1. **Converter**: A library that handles the conversion logic.
 2. **Converter.UI**: A Windows Forms application that provides a user interface for the conversion process.
