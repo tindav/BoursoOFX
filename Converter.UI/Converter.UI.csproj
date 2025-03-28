@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>vecteezy_ofx-creative-icon-design_31468962.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

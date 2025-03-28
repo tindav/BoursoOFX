@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             sourceFileDialog = new OpenFileDialog();
             SourceFileName = new TextBox();
             destinationFileDialog = new SaveFileDialog();
@@ -95,6 +96,7 @@
             Controls.Add(OpenFileButton);
             Controls.Add(SourceFileName);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainWindow";
