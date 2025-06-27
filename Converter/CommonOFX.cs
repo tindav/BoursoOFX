@@ -11,6 +11,23 @@ namespace Converter;
 public partial class OFXSIGNONMSGSRSV1
 {
 
+    public static OFXSIGNONMSGSRSV1 CreateDefault()
+    {
+        return new OFXSIGNONMSGSRSV1
+        {
+            SONRS = new OFXSIGNONMSGSRSV1SONRS
+            {
+                STATUS = new OFXSIGNONMSGSRSV1SONRSSTATUS
+                {
+                    CODE = 0,
+                    SEVERITY = "INFO"
+                },
+                DTSERVER = uint.Parse(DateTime.Now.ToString("yyyyMMdd")),
+                LANGUAGE = "ENG"
+            }
+        };
+    }
+
     private OFXSIGNONMSGSRSV1SONRS sONRSField;
 
     /// <remarks/>
